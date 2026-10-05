@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHOUBIDOU</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        body {
+            background-image: url('love.png');
+            background-size: contain;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 500px;
+            box-sizing: border-box;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .choubidou-text {
+            font-size: 32px;
+            background: linear-gradient(to right, #062edf, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        .declaration {
+            color: #0066cc;
+            font-size: 40px;
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .star-img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .heart-img {
+            width: 70px;
+            height: auto;
+        }
+
+        .bonne-nuit-text {
+            font-size: 24px;
+            background: linear-gradient(to right, #062edf, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 25px 0 15px 0;
+        }
+
+        .btn-bisous {
+            padding: 12px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #d90bf5;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .btn-bisous:hover {
+            transform: scale(1.05);
+            background-color: #c00ada;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title">
+            <img src='star.png' alt='Étoile' class="star-img">
+            <p class="choubidou-text">Mon Choubidou</p>
+            <img src='star.png' alt='Étoile' class="star-img">
+        </div>
+        <h1 class="declaration">
+            Je T'
+            <img src="Sans titre.png" alt="Cœur" class="heart-img">
+        </h1>
+        <div class="autre">
+            <p class="bonne-nuit-text">Bonne nuit</p>
+            <button class="btn-bisous" onclick="window.location.href='https://www.youtube.com/watch?v=y0sF5xhGreA';">Bisous</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
